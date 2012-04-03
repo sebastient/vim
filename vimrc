@@ -12,7 +12,14 @@ let g:SuperTabMappingBackward="<S-C-@>"
 
 let g:load_doxygen_syntax=1
 
+let g:tagbar_width=60
+
+let g:CCTreeKeyTraceForwardTree = '<C-\>]'
+let g:CCTreeKeyTraceReverseTree = '<C-\>['
+
+nmap ` :TagbarOpenAutoClose<CR>
 nmap <C-@> :cs find s <C-R>=expand("<cword>")<CR><CR>
+nmap " :ShowMarksOnce<CR>
 
 cs add .
 
