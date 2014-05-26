@@ -21,5 +21,6 @@ nmap ` :TagbarOpenAutoClose<CR>
 nmap <C-@> :cs find s <C-R>=expand("<cword>")<CR><CR>
 nmap " :ShowMarksOnce<CR>
 
-cs add .
+"should be called manually to avoid errors when missing.
+"cs add .
 
