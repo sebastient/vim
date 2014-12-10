@@ -7,3 +7,6 @@
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = git://github.com/majutsushi/tagbar.git
+[submodule "bundle/vim-opencl"]
+	path = bundle/vim-opencl
+	url = git://github.com/petRUShka/vim-opencl.git
